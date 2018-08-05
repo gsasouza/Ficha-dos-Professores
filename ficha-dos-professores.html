@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Ficha dos Professores</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        div.prof {
+            margin: .3em .0em;
+            border-radius: 5px;
+        }
+        div.prof-data {
+            margin: .3em .0em;
+            border-radius: .4em;
+        }
+        button.btn {
+            background-color: lightseagreen;
+            border-radius: .5em;
+        }
+        div.card {
+            margin: .5em 0em;
+            border-radius: .4em;
+            background-color: azure;
+            /* white-space: nowrap; */
+        }
+        div.card.materia {
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <div class="container-fluid" style="margin-top: 10px;">
+        <div class="row">
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#moacir-data">
+                        Moacir
+                    </button>
+                    <div id="moacir-data" class="prof-data collapse">
+                        <div class="card materia">
+                            ICC-II
+                        </div>
+                        <div class="card provas">
+                            P1 - 01/10<br>
+                            P2 - 22/11<br>
+                            T1 - 13/08
+                        </div>
+                        <div class="card sistemas">
+                            <span><a href="http://run.codes" target="_blank" class="text-nowrap">run.codes</a> turma DK74</span>
+                            <a href="https://ae4.tidia-ae.usp.br/portal/site/f70c4368-1333-4ab6-aeb7-bf6035bf3f71" target="_blank">Tidia</a>
+                        </div>
+                        <div class="card atendimento">
+                            QUA 13h30 a 15h30 (sala 3-245)<br>
+                            Monitoria
+                            <a href="https://2018-scc0201.slack.com/" target="_blank">Dúvidas via slack</a>
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#robson-data">
+                        Robson
+                    </button>
+                    <div id="robson-data" class="prof-data collapse">
+                        <div class="card materia">
+                            ALG-I
+                        </div>
+                        <div class="card provas">
+                            P1 - 08/10<br>
+                            P2 - 26/11<br>
+                            SUB - 03/12
+                        </div>
+                        <div class="card sistemas">
+                            Tidia (TBD)
+                        </div>
+                        <div class="card atendimento">
+                            QUI 17h00 a 19h00 (sala 3-245)
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#massa-data">
+                        Massa
+                    </button>
+                    <div id="massa-data" class="prof-data collapse">
+                        <div class="card provas">
+                            
+                        </div>
+                        <div class="card sistemas">
+                            
+                        </div>
+                        <div class="card atendimento">
+                            
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#wolf-data">
+                        Wolf
+                    </button>
+                    <div id="wolf-data" class="prof-data collapse">
+                        <div class="card provas">
+                            
+                        </div>
+                        <div class="card sistemas">
+                            
+                        </div>
+                        <div class="card atendimento">
+                            
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#faria-data">
+                        Faria
+                    </button>
+                    <div id="faria-data" class="prof-data collapse">
+                        <div class="card provas">
+                            
+                        </div>
+                        <div class="card sistemas">
+                            
+                        </div>
+                        <div class="card atendimento">
+                            
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#danilo-data">
+                        Danilo
+                    </button>
+                    <div id="danilo-data" class="prof-data collapse">
+                        <div class="card provas">
+                            
+                        </div>
+                        <div class="card sistemas">
+                            
+                        </div>
+                        <div class="card atendimento">
+                            
+                        </div>
+                        <div class="card email">
+                            
+                        </div>
+                        <div class="card ementa">
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            
+                        </div>
+                        <div class="card listas">
+                            
+                        </div>
+                        <div class="card arquivos">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                    <div style="display: flex; flex-direction: column;">
+                        <button class="btn btn-info btn-collapsed" type="button"
+                                data-toggle="collapse" data-target="#irene-data">
+                            Irene
+                        </button>
+                        <div id="irene-data" class="prof-data collapse">
+                            <div class="card provas">
+                                
+                            </div>
+                            <div class="card sistemas">
+                                
+                            </div>
+                            <div class="card atendimento">
+                                
+                            </div>
+                            <div class="card email">
+                                
+                            </div>
+                            <div class="card ementa">
+                                
+                            </div>
+                            <div class="card avaliacao">
+                                
+                            </div>
+                            <div class="card listas">
+                                
+                            </div>
+                            <div class="card arquivos">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
