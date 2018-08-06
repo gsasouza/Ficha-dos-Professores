@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Ficha dos Professores</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        div.prof {
+            margin: .3em .0em;
+            border-radius: 5px;
+        }
+        div.prof-data {
+            margin: .3em .0em;
+            border-radius: .4em;
+        }
+        button.btn {
+            background-color: lightseagreen;
+            border-radius: .5em;
+            font-weight: bold;
+        }
+        div.card {
+            text-align: center;
+            margin: .5em 0em;
+            border-radius: .4em;
+            background-color: azure;
+            /* white-space: nowrap; */
+        }
+        div.card.materia {
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+        div.card.provas {
+            text-align: center;
+            font-size: 12pt;
+        }
+        h3{
+        	font-size: 12pt;
+        	font-weight: bold;
+        }
+        div.yellowbox{
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+    <div class="container-fluid" style="margin-top: 10px;">
+        <div class="column">
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#moacir-data">
+                        Moacir
+                    </button>
+                    <div id="moacir-data" class="prof-data collapse">
+                        <div class="card materia">
+                            ICC-II
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            P1 - 01/10<br>
+                            P2 - 22/11<br>
+                            T1 até 15/08
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <span><a href="https://run.codes/offerings/view/863" target="_blank" class="text-nowrap">run.codes</a> (Turma DK74)</span>
+                            <a href="https://ae4.tidia-ae.usp.br/portal/site/f70c4368-1333-4ab6-aeb7-bf6035bf3f71" target="_blank">Tidia</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            Mon. QUA 13h30 -> 15h30 (sala 3-245)<br>
+                            <a href="https://2018-scc0201.slack.com/" target="_blank">Dúvidas via slack</a>
+                        </div>
+                        <div class="card email">
+     			    <h3>CONTATO</h3>
+     			    moacir@icmc.usp.br		           
+                        </div>
+                        <div class="card ementa">                           
+                            <a href="https://ae4.tidia-ae.usp.br/access/content/group/f70c4368-1333-4ab6-aeb7-bf6035bf3f71/SCC0201.Apresentacao.pdf" target="_blank">Bibliografia/Ementa</a>
+                            
+                        </div>
+                        <div class="card avaliacao">
+                            <a href="https://drive.google.com/file/d/1nsv3NT0ua-8U37-BN4i2f1QNE_rG57eO/view?usp=sharing" target="_blank">Critério de Avaliação</a>
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio	
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#robson-data">
+                        Robson
+                    </button>
+                    <div id="robson-data" class="prof-data collapse">
+                        <div class="card materia">
+                            ALG-I
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            P1 - 08/10<br>
+                            P2 - 26/11<br>
+                            SUB - 03/12
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="" target="_blank">Tidia</a>
+                        </div>
+                        <div class="card atendimento">
+                           <h3>MONITORIA/ATENDIMENTO</h3>
+                           Atd. QUI 17h00 -> 19h00 (sala 3-245)
+                        </div>
+                        <div class="card email">
+                       	     <h3>CONTATO</h3>
+                       	     robson@icmc.usp.br, PROF<br>
+			     gui.queiroz@usp.br, monitor Guilherme		
+                            
+                        </div>
+                        <div class="card ementa">
+                             <a href="https://drive.google.com/file/d/1b6hAtZ5YN9hpEfYjCULPYsZZtqYsydOb/view?usp=sharing" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            0,7×MP + 0,3MT se MP&&MT>=5<br>		
+			    ou min(MP,MT) caso contrário		
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#massa-data">
+                        Massa
+                    </button>
+                    <div id="massa-data" class="prof-data collapse">
+                        <div class="card materia">
+                            Discreta
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            ??<br>
+                            NÃO ESQUEÇA DE LEVAR A IDENTIDADE!
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="http://conteudo.icmc.usp.br/pessoas/eugenio/MatDisc/MatDisc.htm" target="_blank">Site Pessoal</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            Atd. QUA 16:00 -> 17:40 (sala 4-210)<br>
+			    Não haverá monitoria
+		
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            eugenio@icmc.usp.br		
+		
+                        </div>
+                        <div class="card ementa">
+                            <a href="http://conteudo.icmc.usp.br/pessoas/eugenio/MatDisc/ement_coord.pdf" target="_blank">Bibliografia/Ementa</a>
+
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            Media=(P1x2+P2x3)/5	<br>	
+			    ou 4bola em cada +90% freq		
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            <a href="http://conteudo.icmc.usp.br/pessoas/eugenio/MatDisc/L1_matdisc.pdf" target="_blank">1° Lista</a>
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            <a href="http://conteudo.icmc.usp.br/pessoas/eugenio/MatDisc/logica.pdf" target="_blank">1° Aula</a>
+                            <a href="http://conteudo.icmc.usp.br/pessoas/eugenio/MatDisc/errata.pdf" target="_blank">Errata do Livro</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#wolf-data">
+                        Wolf
+                    </button>
+                    <div id="wolf-data" class="prof-data collapse">
+                        <div class="card materia">
+                            Sistemas Digitais
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            P1 - 25/09<br>
+                            P2 - 20/11
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="https://ae4.tidia-ae.usp.br/portal/site/55a20603-3689-407c-83df-997010724da2/page/8be92043-71c0-4699-bd1c-c0e2315e08ad#" target="_blank">Tidia</a>
+                            <u>(Calendário de Aulas disponível na página principal do Tidia)</u>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            denis@icmc.usp.br		
+                        </div>
+                        <div class="card ementa">
+                            <a href="" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            Média das duas provas
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#francisco-data">
+                        Francisco
+                    </button>
+                    <div id="francisco-data" class="prof-data collapse">
+                        <div class="card materia">
+                            Física BCC-A
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            P1 - 31/08<br>		
+			    P2 - 16/10<br>	
+		            P3 - 30/11<br>		
+			    SUB - 07/12	
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="http://www.gradaluno.ifsc.usp.br/index.php?disc=7600105-1" target="_blank">IFSC</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            guimaraes@ifsc.usp.br 		
+		        </div>
+                        <div class="card ementa">
+                            <a href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=fcm0200&nomdis=" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            0.9*MP + 0.1*Mprovinha		
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#faria-data">
+                        Faria
+                    </button>
+                    <div id="faria-data" class="prof-data collapse">
+                        <div class="card materia">
+                            Física BCC-B
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+			    P1 - 31/08<br>		
+			    P2 - 16/10<br>	
+			    P3 - 30/11<br>		
+			    SUB - 07/12		
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="" target="_blank">?</a>
+                            <a href="" target="_blank">?</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            faria@ifsc.usp.br
+                        </div>
+                        <div class="card ementa">
+                            <a href="" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            ??
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                <div style="display: flex; flex-direction: column;">
+                    <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#danilo-data">
+                        Danilo
+                    </button>
+                    <div id="danilo-data" class="prof-data collapse">
+                        <div class="card materia">
+                            Prática em Sistemas Digitais<br>
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            ??
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="" target="_blank">?</a>
+                            <a href="" target="_blank">?</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            spatti@icmc.usp.br		
+                        </div>
+                        <div class="card ementa">
+                            <a href="" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            ??
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prof col-lg">
+                    <div style="display: flex; flex-direction: column;">
+                        <button class="btn btn-info btn-collapsed" type="button"
+                                data-toggle="collapse" data-target="#irene-data">
+                            Irene
+                        </button>
+                        <div id="irene-data" class="prof-data collapse">
+                            <div class="card materia">
+                            Cálculo II
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            ??
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="" target="_blank">?</a>
+                            <a href="" target="_blank">?</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            onnis@icmc.usp.br		
+                        </div>
+                        <div class="card ementa">
+                            <a href="" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            ??
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+  		<!-- exemplo a ser copiado em edicoes posteriores
+                
+                <div class="prof col-lg">
+                    <div style="display: flex; flex-direction: column;">
+                        <button class="btn btn-info btn-collapsed" type="button"
+                                data-toggle="collapse" data-target="#irene-data">
+                            Irene
+                        </button>
+                        <div id="irene-data" class="prof-data collapse">
+                            <div class="card materia">
+                            Cálculo II
+                        </div>
+                        <div class="card provas">
+                            <h3>PROVAS</h3>
+                            ??
+                        </div>
+                        <div class="card sistemas">
+                            <h3>SISTEMAS UTILIZADOS</h3>
+                            <a href="" target="_blank">?</a>
+                            <a href="" target="_blank">?</a>
+                        </div>
+                        <div class="card atendimento">
+                            <h3>MONITORIA/ATENDIMENTO</h3>
+                            ??
+                        </div>
+                        <div class="card email">
+                            <h3>CONTATO</h3>
+                            onnis@icmc.usp.br		
+                        </div>
+                        <div class="card ementa">
+                            <a href="" target="_blank">Bibliografia/Ementa</a>
+                        </div>
+                        <div class="card avaliacao">
+                            <h3>CRITÉRIOS DE AVALIAÇÃO</h3>
+                            ??
+                        </div>
+                        <div class="card listas">
+                            <h3>LISTAS</h3>
+                            Vazio
+                        </div>
+                        <div class="card arquivos">
+                            <h3>ARQUIVOS</h3>
+                            Vazio
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        	
+        	-->
+
+        	<div class = "prof col-lg ">
+        	    <div style="display: flex; flex-direction: column;">
+		        <button class="btn btn-info btn-collapsed" type="button"
+                            data-toggle="collapse" data-target="#links">
+                        Links Úteis
+                        </button>        		
+                        <div id = "links" class="prof-data collapse">
+                            
+                            <div class = "yellowbox">
+				<a href="https://drive.google.com/open?id=1-Edxrw-_wahUobJGMTd41qJSAVzHivREWApYVkPZm64" target="_blank">Calendário Escolar</a><br>
+			    </div>
+
+			    
+			    <div class = "yellowbox">
+                            <a href="https://calendar.google.com/calendar/b/1?cid=dXNwLmJyX21hdnBscTJjZDAydjV2NmNhcmR2cWNncW4wQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank">Calendário de Provas</a>
+                    	    </div>
+                        
+                        </div>	
+                    </div>
+        	</div>
+        </div>
+    </div>
+
+</body>
+</html>
